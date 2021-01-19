@@ -118,3 +118,92 @@ main {
   text-decoration: none;
   color: #aaa;
 }
+
+.funding {
+  width: 100%;
+  padding: 0 3%;
+}
+
+.funding-item {
+  margin-bottom: 10px;
+}
+
+.fund-comp-wrapper {
+  position: relative;
+}
+
+.fund-comp-wrapper img {
+  position: absolute;
+  top: 9%;
+  left: 2%;
+}
+
+.fund-company {
+  background-color: #f42;
+  color: white;
+  padding: 5px 0;
+}
+
+.fund-company p {
+  margin-left: 17%;
+  font-size: 1.5em;
+}
+
+.fund-amount * {
+  margin-left: 17%;
+}
+
+.fund-amount {
+  background-color: rgba(255, 68, 34, 0.08);
+  padding: 10px 0;
+}
+
+.fund-amount p {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.fund-amount small {
+  color: gray;
+}
+
+.fund-nav-links a {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.fund-links {
+  padding: 10px 3%;
+  background: #fffaf8;
+}
+
+.fund-links a {
+  display: block;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.last-fund-link {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+}
+
+.fund-links a span {
+  color: #555;
+}
+
+.story-title-source {
+  color: gray !important;
+}
+
+.fund-text h2,
+.fund-text section a {
+  color: #f42;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.fund-text h2 {
+  font-size: 2em;
+  margin-top: 30px;
+}
