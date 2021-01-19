@@ -207,3 +207,125 @@ main {
   font-size: 2em;
   margin-top: 30px;
 }
+
+.topics {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 3%;
+}
+
+.topics-item {
+  width: 98%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2px 4px;
+}
+
+.topics-item h2{
+  color: #f42;
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+.topics-item-img {
+  height: 370px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topics-item-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topics-item-img.topic-1 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-1.webp");
+}
+
+.topics-item-img.topic-2 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-2.jpg");
+}
+
+.topics-item-img.topic-3 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-3.jpg");
+}
+
+.topics-item-img.topic-4 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-4.jpeg");
+}
+
+.topics-item-img.topic-5 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-5.webp");
+}
+
+.topics-item-img.topic-6 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-6.webp");
+}
+
+.topics-item-img.topic-7 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-7.webp");
+}
+
+.topics-item-img.topic-8 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-8.jpg");
+}
+
+.topics-item-img.topic-9 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-9.jpg");
+}
+
+.top-item-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.top-item-text p,
+.top-item-text h3 {
+  color: #fff;
+}
+
+.mini-topic {
+  display: flex;
+  color: #f42;
+  background-color: rgba(255, 68, 34, 0.08);
+  margin-top: 3px;
+}
+
+.mini-topic img {
+  width: 23%;
+  height: 100px;
+}
+
+.mini-topic section p:last-child {
+font-weight: bold;
+}
+
+.mini-topic section {
+  padding: 2% 3%;
+}
+
+.topics-item ul {
+  padding: 2% 3%;
+  list-style: none;
+}
+
+.topics-item ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid lightgray;
+  color: #555;
+}
+
+
+.topics-item ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #f42; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
