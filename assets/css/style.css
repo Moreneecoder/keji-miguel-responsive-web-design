@@ -23,13 +23,20 @@ nav {
   color: red;
 }
 
+.headlines {
+  display: flex;
+  flex-direction: column;
+  
+}
+
 .headline-item {
-  width: 100%;
+  width: 98%;
   height: 170px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin: 2px 4px;
 }
 
 .headline-item-text {
