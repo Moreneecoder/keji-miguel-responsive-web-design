@@ -188,12 +188,32 @@ main {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
 }
 
+.lower-footer span {
+  text-align: center;
+  margin-bottom: 5px;
+  display: block;
+  color: #aaa;
+  font-size: 0.8em;
+}
+
+.upper-footer-line span {
+  padding: 10px 13px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
 .fund-links a span {
   color: #555;
 }
 
 .story-title-source {
   color: gray !important;
+}
+
+.bottom-footer-line a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 0.8em;
 }
 
 .fund-text h2,
@@ -369,4 +389,35 @@ main {
 .deals-headers h2 {
   flex: 2;
   font-size: 1.8em;
+}
+
+.upper-footer {
+  padding: 50px 0;
+  background-color: #131313;
+}
+
+.upper-footer-line,
+.bottom-footer-line {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-footer-line {
+  margin-top: 35px;
+}
+
+.upper-footer-line i {
+  color: white;
+}
+
+.lower-footer {
+  margin: 0 auto;
+  background-color: #000;
+  padding: 30px 0;
+}
+
+.lower-footer span img {
+  height: 9px;
 }
