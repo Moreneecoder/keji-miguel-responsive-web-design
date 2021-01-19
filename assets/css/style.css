@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.search-and-menu i {
+  margin: 0;
+  border: 1px solid lightgray;
+  padding: 15px;
+}
+
+.search {
+  color: lightgray;
+}
+
+.menu {
+  color: red;
+}
+
+.headline-item {
+  width: 100%;
+  height: 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.headline-item-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.headline-item h1 {
+  font-size: 1.5em;
+  margin: 0;
+  color: white;
+}
+
+.headline-item-text small {
+  color: #555;
+}
+
+.headline-item-text small a {
+  text-decoration: none;
+  color: gray;
+}
+
+.headline-image-1 {
+  background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/headline-1.webp");
+}
