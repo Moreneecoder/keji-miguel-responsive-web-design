@@ -14,6 +14,7 @@ nav {
   z-index: 10;
   background-color: white;
 }
+
 main {
   padding-top: 50px;
 }
@@ -35,7 +36,6 @@ main {
 .headlines {
   display: flex;
   flex-direction: column;
-
 }
 
 .headline-item {
@@ -65,11 +65,10 @@ main {
   font-size: 12px;
 }
 
-.art-author-link a{
+.art-author-link a {
   text-decoration: none;
   color: #aaa;
 }
-
 
 .headline-image-1 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/headline-1.webp");
@@ -84,44 +83,38 @@ main {
 }
 
 .latest-news {
-padding: 0 3%;
-margin-top: 20px;
+  padding: 0 3%;
+  margin-top: 20px;
 }
 
-.latest-news h2{
+.latest-news h2 {
   color: #f42;
   margin-bottom: 20px;
 }
 
 .latest-news-item {
-display: flex;
-justify-content: space-between;
-margin-bottom: 10px;
-width: 100%;
-height: 75px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 75px;
 }
 
 .latest-news-item img {
-width: 15%;
-height: auto;
+  width: 15%;
+  height: auto;
 }
 
 .news-title {
-width: 82%;
+  width: 82%;
 }
 
-.news-title h3{
+.news-title h3 {
   margin-bottom: 5px;
-font-size: 14px;
+  font-size: 14px;
 }
 
 .latest-news-item a {
-text-decoration: none;
-color: #aaa;
+  text-decoration: none;
+  color: #aaa;
 }
-
-
-
-/* .latest-news-item h3 {
-margin: 0;
-} */
