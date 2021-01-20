@@ -433,7 +433,11 @@ main {
 
   .medium-and-desktop-nav {
     display: flex;
+    width: 100%;
     height: 80px;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
   }
 
   .medium-nav-logo {
@@ -468,6 +472,48 @@ main {
     text-decoration: none;
     color: #aaa;
     margin: 0 3px;
+  }
+
+  .fund-nav-links a {
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid red;
+  }
+
+  .fund-nav-links a:first-child {
+    padding-left: 0;
+  }
+
+  .fund-nav-links a:last-child {
+    border: 0;
+  }
+
+  .latest-funding-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .funding-item {
+    flex-basis: 32%;
+  }
+
+  .funding-item:last-child {
+    display: none;
+  }
+
+  .fund-comp-wrapper img {
+    width: 25%;
+    margin-left: 3%;
+  }
+
+  .fund-company p,
+  .fund-amount * {
+    margin-left: 33%;
+  }
+
+  .clear {
+    clear: both;
   }
 
   .left-black-links a:first-child {
@@ -538,10 +584,6 @@ main {
   .news-title {
     display: block;
   }
-
-
-
-
 }
 
 @media only screen and (min-width: 1024px) {
