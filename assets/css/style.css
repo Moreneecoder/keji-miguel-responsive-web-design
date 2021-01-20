@@ -126,6 +126,7 @@ main {
 .funding {
   width: 100%;
   padding: 0 3%;
+  margin-top: 30px;
 }
 
 .funding-item {
@@ -229,7 +230,6 @@ main {
 
 .fund-text h2 {
   font-size: 2em;
-  margin-top: 30px;
 }
 
 .topics {
@@ -426,6 +426,10 @@ main {
   height: 9px;
 }
 
+.headline-logo-and-date {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .mobile-nav {
     display: none;
@@ -566,7 +570,6 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
-    grid-template-rows: repeat(3, 1fr);
   }
 
   .latest-news-item {
@@ -590,8 +593,6 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* width: 100%;
-    padding: 0 3%; */
   }
 
   .topics-item {
@@ -621,7 +622,10 @@ main {
     border-bottom: 1px solid #aaa;
   }
 
-  
+  .headline-logo-and-date {
+    display: none;
+  }
+
   /* .triangle-topright {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
     background-repeat: no-repeat;
@@ -660,5 +664,70 @@ main {
   .top-black-menu {
     justify-content: space-between;
     padding: 0 15px;
+  }
+
+  .headlines {
+    height: 500px;
+  }
+
+  .headline-image-1 {
+    height: 100%;
+  }
+
+  .mini-headlines section {
+    height: 50%;
+  }
+
+  .headline-logo-and-date {
+    display: block;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+
+  .headline-logo-and-date img {
+    width: 50%;
+  }
+
+  .headline-logo-and-date p {
+    float: right;
+    margin-right: 20px;
+    color: white;
+  }
+
+  .headline-image-1 .headline-item-text h1 {
+    font-size: 4em;
+  }
+
+  .mini-headlines .headline-item .headline-item-text {
+    font-size: 1.5em;
+  }
+
+  .latest-news-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
+
+  .funding-item {
+    flex-basis: 24%;
+  }
+
+  .funding-item:last-child {
+    display: inline;
+  }
+
+  .fund-text {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+  }
+
+  .fund-text h2 {
+    flex: 2;
+  }
+
+  .fund-nav-links {
+    justify-items: right;
   }
 }
