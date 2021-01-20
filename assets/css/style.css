@@ -340,12 +340,12 @@ main {
 }
 
 .topics-item ul li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #f42; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .latest-deals {
@@ -604,7 +604,6 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
-    grid-template-rows: repeat(3, 1fr);
     margin-bottom: 15px;
   }
 
@@ -626,30 +625,15 @@ main {
     display: none;
   }
 
-  /* .triangle-topright {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: #000;
-    height: 80px;
-    overflow: hidden;
-    pointer-events: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-  } */
+  .upper-footer-line,
+  .bottom-footer-line {
+    width: 50%;
+  }
 
-  /* .triangle-topright p {
-    transform: rotate(45deg);
-    margin-left: -20%;
-    z-index: 10;
-    color: red;
-    width: 20px;
-    font-size: 10px;
-    border: 1px solid red;
-  } */
+  .lower-footer {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -729,5 +713,24 @@ main {
 
   .fund-nav-links {
     justify-items: right;
+  }
+
+  .topics-item {
+    flex-basis: 31%;
+  }
+
+  .latest-deals-items-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .lower-footer span {
+    display: inline-block;
+    color: #aaa;
+    font-size: 1.2em;
+  }
+
+  .upper-footer-line,
+  .bottom-footer-line {
+    width: 30%;
   }
 }
