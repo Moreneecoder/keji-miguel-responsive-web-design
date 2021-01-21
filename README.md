@@ -17,7 +17,7 @@ layouts for the three screen sizes (Mobile, Tablet and Desktop) that the origina
 
 # Web Page View
 
-<img width="1260" alt="Screen Shot 2021-01-20 at 11 34 26 PM" src="https://user-images.githubusercontent.com/38987207/105249381-524e5300-5b78-11eb-84fa-b385d2e165e1.png">
+![Uploading Screen Shot 2021-01-20 at 11.34.26 PM.png…]()
 
 ## Authors
 
