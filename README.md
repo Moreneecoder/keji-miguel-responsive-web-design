@@ -13,7 +13,7 @@ layouts for the three screen sizes (Mobile, Tablet and Desktop) that the origina
 
 # Live Link
 
-* https://moreneecoder.github.io/keji-miguel-responsive-web-design/
+* [The Next Web Clone](https://moreneecoder.github.io/keji-miguel-responsive-web-design/)
 
 # Web Page View
 
