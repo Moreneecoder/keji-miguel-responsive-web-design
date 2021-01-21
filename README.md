@@ -1,6 +1,9 @@
 # Responsive Web Design Project - Microverse
 
-A clone of the layout and responsive of The Next Web Website
+> A clone of the layout and responsive of The Next Web Website
+
+The project is a clone of The Next Web HomePage. We implemented the 
+layouts for the three screen sizes (Mobile, Tablet and Desktop) that the original website responds to.
 
 # Built With
 
@@ -19,13 +22,15 @@ A clone of the layout and responsive of The Next Web Website
 ## Authors
 
 ### Morenikeji Fuad Bello
-* github https://github.com/Moreneecoder
+* GitHub: [@Moreneecoder](https://github.com/Moreneecoder)
 * twitter - https://twitter.com/mo_bello19
 
 ### Miguel Gomez
-* github - https://github.com/MiguelArgentina
+* GitHub: [@MiguelArgentina](https://github.com/MiguelArgentina)
 * twitter - https://twitter.com/Qete_arg
 
 ### Acknowledgements
 * Microverse
 
+### License
+* This project is [MIT](lic.url) licensed.
