@@ -137,7 +137,12 @@ main {
   position: relative;
 }
 
+.funding-item:last-child {
+  display: none;
+}
+
 .fund-comp-wrapper img {
+  width: 12%;
   position: absolute;
   top: 9%;
   left: 2%;
@@ -313,18 +318,80 @@ main {
   color: #f42;
   background-color: rgba(255, 68, 34, 0.08);
   margin-top: 3px;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.mini-topic img {
+.mini-topic-img {
   width: 23%;
+  min-width: 100px;
+  max-width: 100px;
   height: 100px;
+  background-color: #ccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mini-topic-img-1 {
+  background-image: url("../../assets/images/topics-1.webp");
+}
+
+.mini-topic-img-2 {
+  background-image: url("../../assets/images/topics-2.jpg");
+}
+
+.mini-topic-img-3 {
+  background-image: url("../../assets/images/topics-3.jpg");
+}
+
+.mini-topic-img-4 {
+  background-image: url("../../assets/images/topics-4.jpeg");
+}
+
+.mini-topic-img-5 {
+  background-image: url("../../assets/images/topics-5.webp");
+}
+
+.mini-topic-img-6 {
+  background-image: url("../../assets/images/topics-6.webp");
+}
+
+.mini-topic-img-7 {
+  background-image: url("../../assets/images/topics-7.webp");
+}
+
+.mini-topic-img-8 {
+  background-image: url("../../assets/images/topics-8.jpg");
+}
+
+.mini-topic-img-9 {
+  background-image: url("../../assets/images/topics-9.jpg");
+}
+
+.latest-deals-item section {
+  width: 82%;
+}
+
+.latest-deals-item section p:first-child {
+  margin-bottom: 5px;
+}
+
+.latest-deals-item section p:last-child span {
+  color: #555;
+}
+
+.latest-deals-item section p:last-child del {
+  font-size: 0.8em;
+  color: #aaa;
 }
 
 .mini-topic section p:last-child {
   font-weight: bold;
 }
 
-.mini-topic section {
+.mini-topic section:first-child {
+  width: 70%;
   padding: 2% 3%;
 }
 
@@ -359,23 +426,6 @@ main {
   margin-bottom: 10px;
   width: 100%;
   height: 75px;
-}
-
-.latest-deals-item section {
-  width: 82%;
-}
-
-.latest-deals-item section p:first-child {
-  margin-bottom: 5px;
-}
-
-.latest-deals-item section p:last-child span {
-  color: #555;
-}
-
-.latest-deals-item section p:last-child del {
-  font-size: 0.8em;
-  color: #aaa;
 }
 
 .latest-deals-item img {
@@ -502,12 +552,8 @@ main {
     flex-basis: 32%;
   }
 
-  .funding-item:last-child {
-    display: none;
-  }
-
   .fund-comp-wrapper img {
-    width: 25%;
+    width: 12%;
     margin-left: 3%;
   }
 
