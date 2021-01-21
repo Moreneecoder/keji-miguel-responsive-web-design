@@ -428,9 +428,51 @@ main {
   height: 75px;
 }
 
-.latest-deals-item img {
-  width: 16%;
-  height: auto;
+.latest-deals-item section:last-child {
+  padding-left: 10px;
+}
+
+.latest-deals-item-img {
+  width: 23%;
+  min-width: 75px;
+  max-width: 75px;
+  height: 75px;
+  background-color: #ccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.latest-deals-item-img-1 {
+  background-image: url("../../assets/images/latest-deals-1.jpg");
+}
+
+.latest-deals-item-img-2 {
+  background-image: url("../../assets/images/latest-deals-2.jpg");
+}
+
+.latest-deals-item-img-3 {
+  background-image: url("../../assets/images/latest-deals-3.jpg");
+}
+
+.latest-deals-item-img-4 {
+  background-image: url("../../assets/images/latest-deals-4.jpg");
+}
+
+.latest-deals-item-img-5 {
+  background-image: url("../../assets/images/latest-deals-5.jpg");
+}
+
+.latest-deals-item-img-6 {
+  background-image: url("../../assets/images/latest-deals-6.jpg");
+}
+
+.latest-deals-item-img-7 {
+  background-image: url("../../assets/images/latest-deals-7.jpg");
+}
+
+.latest-deals-item-img-8 {
+  background-image: url("../../assets/images/latest-deals-8.jpg");
 }
 
 .deals-headers {
@@ -642,6 +684,7 @@ main {
   }
 
   .topics-item {
+    width: 98%;
     flex-basis: 48%;
     margin-bottom: 15px;
   }
@@ -656,15 +699,26 @@ main {
   .latest-deals-item {
     position: relative;
     flex-direction: column;
+    justify-content: flex-start;
     height: 100%;
     width: 100%;
   }
 
-  .latest-deals-item img {
+  .latest-deals-item section {
     width: 100%;
-    height: 70%;
+    margin-top: 7px;
+  }
+
+  .latest-deals-item-img {
+    width: 100%;
+    height: 180px;
+    max-width: 100%;
     border-right: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
+  }
+
+  .latest-deals-item section:last-child {
+    padding-left: 0;
   }
 
   .headline-logo-and-date {
@@ -724,18 +778,34 @@ main {
     color: white;
   }
 
+  .headline-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+
   .headline-image-1 .headline-item-text h1 {
     font-size: 4em;
   }
 
   .mini-headlines .headline-item .headline-item-text {
     font-size: 1.5em;
+    bottom: 0;
+  }
+
+  .latest-news {
+    padding: 0 6%;
   }
 
   .latest-news-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
+  }
+
+  .funding {
+    padding: 0 6%;
   }
 
   .funding-item {
@@ -761,8 +831,16 @@ main {
     justify-items: right;
   }
 
+  .topics {
+    padding: 0 6%;
+  }
+
   .topics-item {
     flex-basis: 31%;
+  }
+
+  .latest-deals {
+    padding: 0 6%;
   }
 
   .latest-deals-items-wrapper {
