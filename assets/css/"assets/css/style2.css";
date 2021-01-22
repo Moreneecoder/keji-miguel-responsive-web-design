@@ -1,14 +1,14 @@
-/*Using variables in LESS*/
-/*Using mixins in LESS*/
+/* Using variables in LESS */
+/* Using mixins in LESS */
 .background-image-mixin {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*Using nesting in LESS*/
-/*Line 191*/
-/*Line 212*/
-/*Line 191*/
+/* Using nesting in LESS */
+/* Line 191 */
+/* Line 212 */
+/* Line 191 */
 * {
   padding: 0;
   margin: 0;
@@ -260,8 +260,8 @@ main {
   bottom: 10px;
   left: 10px;
 }
-.top-item-text p,
-.top-item-text h3 {
+.top-item-text h3,
+.top-item-text p {
   color: #fff;
 }
 .mini-topic {
@@ -408,8 +408,8 @@ main {
   padding: 50px 0;
   background-color: #131313;
 }
-.upper-footer-line,
-.bottom-footer-line {
+.bottom-footer-line,
+.upper-footer-line {
   width: 70%;
   margin: 0 auto;
   display: flex;
@@ -467,8 +467,8 @@ main {
     justify-content: space-around;
     align-items: center;
   }
-  .top-black-menu a,
-  .bottom-white-menu a {
+  .bottom-white-menu a,
+  .top-black-menu a {
     text-decoration: none;
     color: #aaa;
     margin: 0 3px;
@@ -496,8 +496,8 @@ main {
     width: 12%;
     margin-left: 3%;
   }
-  .fund-company p,
-  .fund-amount * {
+  .fund-amount *,
+  .fund-company p {
     margin-left: 33%;
   }
   .clear {
@@ -599,8 +599,8 @@ main {
   .headline-logo-and-date {
     display: none;
   }
-  .upper-footer-line,
-  .bottom-footer-line {
+  .bottom-footer-line,
+  .upper-footer-line {
     width: 50%;
   }
   .lower-footer {
@@ -700,8 +700,8 @@ main {
     color: #aaa;
     font-size: 1.2em;
   }
-  .upper-footer-line,
-  .bottom-footer-line {
+  .bottom-footer-line,
+  .upper-footer-line {
     width: 30%;
   }
 }

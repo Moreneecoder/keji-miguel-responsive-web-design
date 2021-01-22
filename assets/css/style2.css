@@ -1,19 +1,25 @@
-/*Using variables in LESS*/
-/*Using mixins in LESS*/
+/* Using variables in LESS */
+
+/* Using mixins in LESS */
 .background-image-mixin {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*Using nesting in LESS*/
-/*Line 191*/
-/*Line 212*/
-/*Line 191*/
+
+/* Using nesting in LESS */
+
+/* Line 191 */
+
+/* Line 212 */
+
+/* Line 191 */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 .mobile-nav {
   width: 100%;
   top: 0;
@@ -24,27 +30,34 @@
   z-index: 10;
   background-color: white;
 }
+
 .medium-and-desktop-nav {
   display: none;
 }
+
 main {
   padding-top: 50px;
 }
+
 .search-and-menu i {
   margin: 0;
   border: 1px solid lightgray;
   padding: 15px;
 }
+
 .search {
   color: lightgray;
 }
+
 .menu {
   color: #f42;
 }
+
 .headlines {
   display: flex;
   flex-direction: column;
 }
+
 .headline-item {
   width: 98%;
   height: 170px;
@@ -54,41 +67,51 @@ main {
   position: relative;
   margin: 2px 4px;
 }
+
 .headline-item-text {
   position: absolute;
   bottom: 10px;
   left: 10px;
 }
+
 .headline-item h1 {
   font-size: 1.5em;
   margin: 0;
   color: white;
 }
+
 .art-author-link {
   color: #aaa;
   font-size: 12px;
 }
+
 .art-author-link a {
   text-decoration: none;
   color: #aaa;
 }
+
 .headline-image-1 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/headline-1.webp");
 }
+
 .headline-image-2 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/headline-2.webp");
 }
+
 .headline-image-3 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/headline-3.jpg");
 }
+
 .latest-news {
   padding: 0 3%;
   margin-top: 20px;
 }
+
 .latest-news h2 {
   color: #f42;
   margin-bottom: 20px;
 }
+
 .latest-news-item {
   display: flex;
   justify-content: space-between;
@@ -96,81 +119,101 @@ main {
   width: 100%;
   height: 75px;
 }
+
 .latest-news-item img {
   width: 15%;
   height: auto;
 }
+
 .news-title {
   width: 82%;
 }
+
 .news-title h3 {
   margin-bottom: 5px;
   font-size: 14px;
 }
+
 .latest-news-item a {
   text-decoration: none;
   color: #aaa;
 }
+
 .funding {
   width: 100%;
   padding: 0 3%;
   margin-top: 30px;
 }
+
 .funding-item {
   margin-bottom: 10px;
 }
+
 .fund-comp-wrapper {
   position: relative;
 }
+
 .funding-item:last-child {
   display: none;
 }
+
 .fund-comp-wrapper img {
   width: 12%;
   position: absolute;
   top: 9%;
   left: 2%;
 }
+
 .fund-company {
   background-color: #f42;
   color: white;
   padding: 5px 0;
 }
+
 .fund-company p {
   margin-left: 17%;
   font-size: 1.5em;
 }
+
 .fund-amount * {
   margin-left: 17%;
 }
+
 .fund-amount {
   background-color: rgba(255, 68, 34, 0.08);
   padding: 10px 0;
 }
+
 .fund-amount p {
   font-weight: bold;
   font-size: 1.5em;
 }
+
 .fund-amount p small {
   color: gray;
 }
+
 .fund-nav-links a {
   display: block;
   margin-bottom: 15px;
 }
+
 .fund-links {
   padding: 10px 3%;
   background: #fffaf8;
 }
+
 .fund-links a {
   display: block;
   margin-bottom: 0;
   text-decoration: none;
   color: black;
 }
+
 .last-fund-link {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
 }
+
 .lower-footer span {
   text-align: center;
   margin-bottom: 5px;
@@ -178,37 +221,45 @@ main {
   color: #aaa;
   font-size: 0.8em;
 }
+
 .upper-footer-line span {
   padding: 10px 13px;
   border-radius: 50%;
   background-color: #333;
 }
+
 .fund-links a span {
   color: #555;
 }
+
 .story-title-source {
   color: gray !important;
 }
+
 .bottom-footer-line a {
   text-decoration: none;
   color: #aaa;
   font-size: 0.8em;
 }
+
 .fund-text h2,
 .fund-text section a {
   color: #f42;
   text-decoration: none;
   margin-bottom: 15px;
 }
+
 .fund-text h2 {
   font-size: 2em;
 }
+
 .topics {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 0 3%;
 }
+
 .topics-item {
   width: 98%;
   background-position: center;
@@ -216,11 +267,13 @@ main {
   background-size: cover;
   margin: 2px 4px;
 }
+
 .topics-item h2 {
   color: #f42;
   font-size: 1.8em;
   margin: 10px 0;
 }
+
 .topics-item-img {
   height: 370px;
   position: relative;
@@ -228,42 +281,54 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .topics-item-img.topic-1 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-1.webp");
 }
+
 .topics-item-img.topic-2 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-2.jpg");
 }
+
 .topics-item-img.topic-3 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-3.jpg");
 }
+
 .topics-item-img.topic-4 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-4.jpeg");
 }
+
 .topics-item-img.topic-5 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-5.webp");
 }
+
 .topics-item-img.topic-6 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-6.webp");
 }
+
 .topics-item-img.topic-7 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-7.webp");
 }
+
 .topics-item-img.topic-8 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-8.jpg");
 }
+
 .topics-item-img.topic-9 {
   background-image: linear-gradient(to bottom, rgba(11, 11, 13, 0.3), rgba(0, 0, 0, 0.923)), url("../../assets/images/topics-9.jpg");
 }
+
 .top-item-text {
   position: absolute;
   bottom: 10px;
   left: 10px;
 }
+
 .top-item-text p,
 .top-item-text h3 {
   color: #fff;
 }
+
 .mini-topic {
   display: flex;
   color: #f42;
@@ -272,6 +337,7 @@ main {
   width: 100%;
   justify-content: space-between;
 }
+
 .mini-topic-img {
   width: 23%;
   min-width: 100px;
@@ -282,62 +348,80 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .mini-topic-img-1 {
   background-image: url("../../assets/images/topics-1.webp");
 }
+
 .mini-topic-img-2 {
   background-image: url("../../assets/images/topics-2.jpg");
 }
+
 .mini-topic-img-3 {
   background-image: url("../../assets/images/topics-3.jpg");
 }
+
 .mini-topic-img-4 {
   background-image: url("../../assets/images/topics-4.jpeg");
 }
+
 .mini-topic-img-5 {
   background-image: url("../../assets/images/topics-5.webp");
 }
+
 .mini-topic-img-6 {
   background-image: url("../../assets/images/topics-6.webp");
 }
+
 .mini-topic-img-7 {
   background-image: url("../../assets/images/topics-7.webp");
 }
+
 .mini-topic-img-8 {
   background-image: url("../../assets/images/topics-8.jpg");
 }
+
 .mini-topic-img-9 {
   background-image: url("../../assets/images/topics-9.jpg");
 }
+
 .latest-deals-item section {
   width: 82%;
 }
+
 .latest-deals-item section p:first-child {
   margin-bottom: 5px;
 }
+
 .latest-deals-item section p:last-child span {
   color: #555;
 }
+
 .latest-deals-item section p:last-child del {
   font-size: 0.8em;
   color: #aaa;
 }
+
 .mini-topic section p:last-child {
   font-weight: bold;
 }
+
 .mini-topic section:first-child {
   width: 70%;
   padding: 2% 3%;
 }
+
 .topics-item ul {
   padding: 2% 3%;
   list-style: none;
 }
+
 .topics-item ul li {
   padding: 5px 0;
   border-bottom: 1px solid lightgray;
   color: #555;
 }
+
 .topics-item ul li::before {
   content: "\2022";
   color: #f42;
@@ -346,10 +430,12 @@ main {
   width: 1em;
   margin-left: -1em;
 }
+
 .latest-deals {
   padding: 0 3%;
   margin-top: 20px;
 }
+
 .latest-deals-item {
   display: flex;
   justify-content: space-between;
@@ -357,9 +443,11 @@ main {
   width: 100%;
   height: 75px;
 }
+
 .latest-deals-item section:last-child {
   padding-left: 10px;
 }
+
 .latest-deals-item-img {
   width: 23%;
   min-width: 75px;
@@ -370,44 +458,56 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .latest-deals-item-img-1 {
   background-image: url("../../assets/images/latest-deals-1.jpg");
 }
+
 .latest-deals-item-img-2 {
   background-image: url("../../assets/images/latest-deals-2.jpg");
 }
+
 .latest-deals-item-img-3 {
   background-image: url("../../assets/images/latest-deals-3.jpg");
 }
+
 .latest-deals-item-img-4 {
   background-image: url("../../assets/images/latest-deals-4.jpg");
 }
+
 .latest-deals-item-img-5 {
   background-image: url("../../assets/images/latest-deals-5.jpg");
 }
+
 .latest-deals-item-img-6 {
   background-image: url("../../assets/images/latest-deals-6.jpg");
 }
+
 .latest-deals-item-img-7 {
   background-image: url("../../assets/images/latest-deals-7.jpg");
 }
+
 .latest-deals-item-img-8 {
   background-image: url("../../assets/images/latest-deals-8.jpg");
 }
+
 .deals-headers {
   display: flex;
   align-items: flex-end;
   color: #f42;
   margin-bottom: 20px;
 }
+
 .deals-headers h2 {
   flex: 2;
   font-size: 1.8em;
 }
+
 .upper-footer {
   padding: 50px 0;
   background-color: #131313;
 }
+
 .upper-footer-line,
 .bottom-footer-line {
   width: 70%;
@@ -415,27 +515,34 @@ main {
   display: flex;
   justify-content: space-around;
 }
+
 .bottom-footer-line {
   margin-top: 35px;
 }
+
 .upper-footer-line i {
   color: white;
 }
+
 .lower-footer {
   margin: 0 auto;
   background-color: #000;
   padding: 30px 0;
 }
+
 .lower-footer span img {
   height: 9px;
 }
+
 .headline-logo-and-date {
   display: none;
 }
+
 @media only screen and (min-width: 768px) {
   .mobile-nav {
     display: none;
   }
+
   .medium-and-desktop-nav {
     display: flex;
     width: 100%;
@@ -444,6 +551,7 @@ main {
     background-color: white;
     z-index: 10;
   }
+
   .medium-nav-logo {
     background: black;
     height: 100%;
@@ -452,13 +560,16 @@ main {
     align-items: center;
     justify-content: center;
   }
+
   .medium-and-desktop-nav img {
     width: 66px;
     height: 20px;
   }
+
   .desktop-menu-wrapper {
     width: 87%;
   }
+
   .top-black-menu {
     width: 100%;
     height: 40%;
@@ -467,45 +578,56 @@ main {
     justify-content: space-around;
     align-items: center;
   }
+
   .top-black-menu a,
   .bottom-white-menu a {
     text-decoration: none;
     color: #aaa;
     margin: 0 3px;
   }
+
   .fund-nav-links a {
     float: left;
     padding: 0 10px;
     border-right: 1px solid red;
   }
+
   .fund-nav-links a:first-child {
     padding-left: 0;
   }
+
   .fund-nav-links a:last-child {
     border: 0;
   }
+
   .latest-funding-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .funding-item {
     flex-basis: 32%;
   }
+
   .fund-comp-wrapper img {
     width: 12%;
     margin-left: 3%;
   }
+
   .fund-company p,
   .fund-amount * {
     margin-left: 33%;
   }
+
   .clear {
     clear: both;
   }
+
   .left-black-links a:first-child {
     color: white;
   }
+
   .bottom-white-menu {
     width: 100%;
     height: 60%;
@@ -514,67 +636,82 @@ main {
     justify-content: space-between;
     align-items: center;
   }
+
   .white-nav-links {
     margin: 15px;
   }
+
   .headlines {
     display: flex;
     flex-direction: row;
     padding-right: 5px;
   }
+
   .headline-image-1 {
     width: 70%;
     height: 340px;
   }
+
   .headline-image-1 .headline-item-text h1 {
     font-size: 2.5em;
   }
+
   .mini-headlines {
     display: flex;
     flex-direction: column;
     width: 30%;
   }
+
   .mini-headlines section {
     padding-right: 10px;
   }
+
   .mini-headlines .headline-item .headline-item-text h1 {
     font-size: 1.1em;
   }
+
   .latest-news-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
   }
+
   .latest-news-item {
     display: block;
     margin-bottom: 0;
     height: 100%;
     align-items: stretch;
   }
+
   .latest-news-item img {
     width: 100%;
     height: 50%;
   }
+
   .news-title {
     display: block;
   }
+
   .topics {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .topics-item {
     width: 98%;
     flex-basis: 48%;
     margin-bottom: 15px;
   }
+
   .latest-deals-items-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
     margin-bottom: 15px;
   }
+
   .latest-deals-item {
     position: relative;
     flex-direction: column;
@@ -582,10 +719,12 @@ main {
     height: 100%;
     width: 100%;
   }
+
   .latest-deals-item section {
     width: 100%;
     margin-top: 7px;
   }
+
   .latest-deals-item-img {
     width: 100%;
     height: 180px;
@@ -593,113 +732,143 @@ main {
     border-right: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
   }
+
   .latest-deals-item section:last-child {
     padding-left: 0;
   }
+
   .headline-logo-and-date {
     display: none;
   }
+
   .upper-footer-line,
   .bottom-footer-line {
     width: 50%;
   }
+
   .lower-footer {
     display: flex;
     justify-content: center;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .medium-nav-logo {
     display: none;
   }
+
   .desktop-menu-wrapper {
     width: 100%;
   }
+
   .top-black-menu {
     justify-content: space-between;
     padding: 0 15px;
   }
+
   .headlines {
     height: 500px;
   }
+
   .headline-image-1 {
     height: 100%;
   }
+
   .mini-headlines section {
     height: 50%;
   }
+
   .headline-logo-and-date {
     display: block;
     padding-top: 50px;
     padding-left: 30px;
   }
+
   .headline-logo-and-date img {
     width: 50%;
   }
+
   .headline-logo-and-date p {
     float: right;
     margin-right: 20px;
     color: white;
   }
+
   .headline-item-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 10px;
   }
+
   .headline-image-1 .headline-item-text h1 {
     font-size: 4em;
   }
+
   .mini-headlines .headline-item .headline-item-text {
     font-size: 1.5em;
     bottom: 0;
   }
+
   .latest-news {
     padding: 0 6%;
   }
+
   .latest-news-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
   }
+
   .funding {
     padding: 0 6%;
   }
+
   .funding-item {
     flex-basis: 24%;
   }
+
   .funding-item:last-child {
     display: inline;
   }
+
   .fund-text {
     display: flex;
     justify-content: space-between;
     height: 100%;
     align-items: center;
   }
+
   .fund-text h2 {
     flex: 2;
   }
+
   .fund-nav-links {
     justify-items: right;
   }
+
   .topics {
     padding: 0 6%;
   }
+
   .topics-item {
     flex-basis: 31%;
   }
+
   .latest-deals {
     padding: 0 6%;
   }
+
   .latest-deals-items-wrapper {
     grid-template-columns: repeat(4, 1fr);
   }
+
   .lower-footer span {
     display: inline-block;
     color: #aaa;
     font-size: 1.2em;
   }
+
   .upper-footer-line,
   .bottom-footer-line {
     width: 30%;
